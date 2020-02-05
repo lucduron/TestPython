@@ -21,7 +21,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install libgdal-dev libspatialindex-dev
-        sudo apt-get install python3-pandas
+        sudo apt-get install python-pandas
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Lint with flake8
