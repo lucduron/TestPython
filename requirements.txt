@@ -8,3 +8,4 @@ pandas  # only required for snippets.stat_diff_calculs
 pydot  # only required for crue10.modele.Modele.write_topological_graph
 seaborn  # only required for snippets.stat_diff_calculs
 shapely
+rtree
