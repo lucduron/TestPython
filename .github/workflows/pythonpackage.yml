@@ -18,7 +18,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        sudo apt-get install libgdal-dev libgdal1h
+        sudo apt-get install libgdal-dev
         pip install gdal
         pip install -r requirements.txt
     - name: Lint with flake8
