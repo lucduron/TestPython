@@ -1,11 +1,10 @@
-fiona
-future  # python2 only packages
+gdal  # only for mesh_crue10_run.py with casiers
 jinja2
-lxml
-matplotlib  # only required for some snippets
+matplotlib
 numpy
-pandas  # only required for snippets.stat_diff_calculs
-pydot  # only required for crue10.modele.Modele.write_topological_graph
-seaborn  # only required for snippets.stat_diff_calculs
+pyshp>=2.0
+scipy
 shapely
-rtree
+triangle
+-e git://github.com/CNR-Engineering/Crue10_tools.git#egg=Crue10_tools
+-e git://github.com/CNR-Engineering/PyTelTools.git#egg=PyTelTools
