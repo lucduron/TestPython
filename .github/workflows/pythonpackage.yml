@@ -22,7 +22,6 @@ jobs:
         sudo apt-get update
         sudo apt-get install libgdal-dev libspatialindex-dev
         sudo apt-get install gdal-bin libgdal-dev
-        python install gdal
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Lint with flake8
